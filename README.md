@@ -16,8 +16,6 @@ This project is written in Python 3 using Jupyter notebooks. The relevant Python
 * json
 * math
 * imblearn
-* xgboost
-* shap
 ## Model result
 ![Alt text](image.png)
 ## Summary Project Goal, Approach & Conclusion:
