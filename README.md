@@ -16,9 +16,7 @@ This project is written in Python 3 using Jupyter notebooks. The relevant Python
 * json
 * math
 * imblearn
-## Model result
-![Alt text](image.png)
-## Summary Project Goal, Approach & Conclusion:
+## Summary Project Goal, Approach:
 The project aimed to understand customer behavior in response to promotional offers using machine learning models. The objective was to identify which features of customers are most likely to respond to promotions, enabling a more targeted marketing strategy.
 
 * Data and Methodology:
@@ -30,5 +28,11 @@ Several models were tested, starting with Logistic Regression as a baseline, pro
 * Evaluation Metrics:
 The models were evaluated using F1-score, accuracy, and AUC-ROC score. F1-score was the primary metric due to its relevance in imbalanced class scenarios, balancing precision and recall. Accuracy and AUC-ROC provided additional performance insights.
 
-
+* Save and Transfer Model:  
+Save the Model: Utilize the pickle library to save the trained Random Forest model.  
+Transfer the Training Model to a Script: Create a script named train.py,  
+Save the trained model in a file named response_model.bin
+* Web Service with Flask (pending)
+* Virtual Environment (pending)
+* Docker (pending)
 
